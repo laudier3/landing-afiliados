@@ -72,7 +72,7 @@ export default function LandingPage() {
                   )
                 }
               >
-                Acessar treinamento
+                Ver mais
               </Button>
 
               <Button
