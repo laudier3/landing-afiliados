@@ -10,7 +10,7 @@ export default function LandingPage() {
   const [email, setEmail] = useState('')
   const [error, setError] = useState<string | null>(null)
 
-  const videoUrl = process.env.NEXT_PUBLIC_VIDEO_URL || 'http://65.108.248.12/video/fmov5.mp4'
+  const videoUrl = 'http://65.108.248.12/video/fmov5.mp4' //process.env.NEXT_PUBLIC_VIDEO_URL || 
 
   //console.log('VIDEO URL:', process.env.NEXT_PUBLIC_VIDEO_URL)
 
