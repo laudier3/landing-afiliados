@@ -3,16 +3,11 @@
 import { useState } from 'react'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
-import VideoPlayer from './components/VideoPlayer'
-//import YouTubePlayer from './components/Videos'
+import YouTubePlayer from './components/Videos'
 
 export default function LandingPage() {
   const [email, setEmail] = useState('')
   const [error, setError] = useState<string | null>(null)
-
-  const videoUrl = process.env.NEXT_PUBLIC_VIDEO_URL || ''
-
-  console.log('VIDEO URL:', process.env.NEXT_PUBLIC_VIDEO_URL)
 
   return (
     <main className="relative min-h-screen bg-neutral-950 text-neutral-50 overflow-hidden">
@@ -115,8 +110,7 @@ export default function LandingPage() {
               className="rounded-xl shadow-lg w-full h-56 sm:h-72 md:h-80 object-cover"
             />
 
-            <VideoPlayer url={videoUrl} />
-
+            <YouTubePlayer url="https://youtu.be/3ROjH6qv4tw?t=1293" />
           </div>
         </div>
       </section>
