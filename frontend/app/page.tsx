@@ -97,12 +97,12 @@ export default function LandingPage() {
                 "
                 onClick={() =>
                   window.open(
-                    'https://go.hotmart.com/Q27473023Q?redirectionUrl=https%3A%2F%2Fformulanegocioonline.digital%2F',
+                    'https://go.hotmart.com/Q27473023Q?ap=fb73&redirectionUrl=https%3A%2F%2Fpay.hotmart.com%2FA1412453A%3FcheckoutMode%3D10',
                     '_blank'
                   )
                 }
               >
-                Ver conteúdo
+                Eu Quero
               </Button>
             </div>
           </div>
