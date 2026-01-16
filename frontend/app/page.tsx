@@ -3,8 +3,8 @@
 import { useState } from 'react'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent } from '@/components/ui/card'
-import VideoPlayer from './components/VideoPlayer'
-//import YouTubePlayer from './components/Videos'
+import YouTubePlayer from './components/Videos'
+//import VideoPlayer from './components/VideoPlayer'
 
 export default function LandingPage() {
   const [email, setEmail] = useState('')
@@ -115,7 +115,8 @@ export default function LandingPage() {
               className="rounded-xl shadow-lg w-full h-56 sm:h-72 md:h-80 object-cover"
             />
 
-            <VideoPlayer url={videoUrl} />
+            {/*<VideoPlayer url={videoUrl} />*/}
+            <YouTubePlayer url="https://youtu.be/3ROjH6qv4tw?t=1293" />
 
           </div>
         </div>
